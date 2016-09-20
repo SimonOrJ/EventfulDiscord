@@ -1,0 +1,4 @@
+name: EventfulDynmap
+main: com.simonorj.mc.EventfulDynmap.EventfulDynmap
+version: 0.1.0
+author: SimonOrJ
