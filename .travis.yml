@@ -1,0 +1,11 @@
+language: java
+deploy:
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: UNizql6wiQv6XEC067ArWwlI0GHmLPWtY6hOPyrYKyqMhwnvLWx2XgjHG7ugR+GWtUy8vnAbXQ3WWnZX1OG4w7a7bhHDGSbB6joJ2iZNIv8yng+0mEfGbLGXyOWUpUN/98qOYeF0QShIcDq/oApHC4Z29eZU3Tsxubf6MKIrv9pqD3sxbZkAY1GnkqMrybmxNsjuKTFYJkTn9N3RMtIa4kHg+7VcqTLBicC7bGcH4jSJUgXeiMBvo2ZMIUriBznoz7DqaSj8ObM1OjAKEVWHlDscOEt/2TgZCZ2ZsoTKKW1xIJqW9u+Csjgh4QB4rUC7tVYDM3PXx+Fhf8te222Bky+GP1gd97xEASIDtUEAdlZ7R77dqe8DevX7v+H/+e/wWAg42u3CRVUnZUGvv0I3FbrYPisSUXExCra5rUkL994lgmS5pbU5m9A3YPZsEndgK3AtPovVHk05r4mUIESC5IzTwYTo+t+9zlGol0YR36TNtSoByQ8kNU8OlP9jFPF78rW6IX/TnfmbFaZ7OVvJuDHE+D1/TwPnYY9BhV8/+LDEyoTqwO/MDmcXdheoYtaqFDShFyKZuOmOS2dtUHUf3SyTzmMNy8eilTuF1WtCET+TDN75D0GxfjmoexCyRtnhbs8+spwSgJITGxJ9MjfJEovsjEgRIwQgB2POXxwn98g=
+  file: target/EventfulDynmap-*.jar
+  on:
+    repo: SimonOrJ/EventfulDynmap
+    tags: false
+
