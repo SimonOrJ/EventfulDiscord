@@ -7,5 +7,5 @@ deploy:
   file: target/EventfulDynmap-*.jar
   on:
     repo: SimonOrJ/EventfulDynmap
+    branch: travis-test
     tags: false
-
